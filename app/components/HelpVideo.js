@@ -22,11 +22,11 @@ export default function HelpVideo() {
     <div className="relative text-center mt-2">
       <div className="flex justify-center">
         <button
-          className="flex items-center mr-64 px-1 py-1 text-xs text-black rounded-md "
+          className="flex items-center mr-64 text-xs text-black rounded-md"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <span className="text-xl">📺</span>
-          <span className="hover:underline">Guide</span>
+          <span className="ml-2 text-xl">📺</span>
+          <span className="ml-2 hover:underline">Guide</span>
         </button>
       </div>
 
